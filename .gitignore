@@ -1,0 +1,26 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Export output and local export credentials
+/build/
+/builds/
+/dist/
+/exports/
+export_credentials.cfg
+*.pck
+
+# Local editor settings
+.vscode/
+.idea/
+
+# OS files and temporary editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+*.tmp
+
+# Keep *.uid and *.import files: they preserve resource references and settings.
