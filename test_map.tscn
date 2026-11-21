@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cko1tkeevqag7"]
+
+[ext_resource type="Script" uid="uid://bf8n21m3t1plb" path="res://addons/dual_grid_editor/runtime/dual_grid_map.gd" id="1_4qc02"]
+[ext_resource type="Texture2D" uid="uid://dpfpl5cm26sxc" path="res://addons/dual_grid_editor/art/dual_grid/map.png" id="2_4wuf8"]
+
+[node name="TestMap" type="Node2D" unique_id=87358109]
+
+[node name="DualGridMap" type="Node2D" parent="." unique_id=1868099411]
+texture_filter = 1
+script = ExtResource("1_4qc02")
+grass_cells = Array[Vector2i]([Vector2i(8, 1), Vector2i(11, 1), Vector2i(12, 1), Vector2i(12, 2), Vector2i(11, 3), Vector2i(10, 2), Vector2i(10, 7), Vector2i(12, 5), Vector2i(12, 4), Vector2i(12, 3), Vector2i(9, 3), Vector2i(10, 3), Vector2i(10, 4), Vector2i(11, 4), Vector2i(12, 6), Vector2i(12, 7), Vector2i(10, 6), Vector2i(13, 3), Vector2i(13, 4), Vector2i(13, 5), Vector2i(13, 6), Vector2i(14, 5), Vector2i(14, 4), Vector2i(8, 3), Vector2i(10, 5), Vector2i(11, 5), Vector2i(9, 1), Vector2i(10, 1), Vector2i(8, 2), Vector2i(9, 2), Vector2i(8, 6), Vector2i(9, 6), Vector2i(8, 5), Vector2i(9, 5), Vector2i(11, 6), Vector2i(8, 4), Vector2i(9, 4), Vector2i(3, 4), Vector2i(4, 4), Vector2i(5, 4), Vector2i(6, 4), Vector2i(7, 4), Vector2i(7, 5)])
+terrain_atlas = ExtResource("2_4wuf8")
+mask_to_atlas_index = PackedInt32Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+metadata/_custom_type_script = "uid://bf8n21m3t1plb"
